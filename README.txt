@@ -9,3 +9,4 @@ git reset --soft HEAD^: Uncommits the last commit. One carat after HEAD says tha
 git commit --amend: Adds whatever is staged to the current commit.
 git reset --hard HEAD^: Blows away the last commit
 git reset --hard HEAD^^: Blows away the last two commits
+git checkout -- <file_name>: Blows away all changes to file since last commit
